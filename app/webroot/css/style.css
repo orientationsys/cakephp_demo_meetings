@@ -1,0 +1,124 @@
+
+/*Right sidebar*/
+.sidebar-col h1 {
+	background:none repeat scroll 0 0 #EEF5FB;
+	border-bottom:1px solid #DCDCDC;
+	color:#333333;
+	font-size:14px;
+	margin:0 0 5px;
+	padding:6px 8px;
+}
+
+/*Meeting index*/
+
+
+
+.input {
+	padding:0;
+	vertical-align:middle;
+}
+	.input h2, .options h2{
+		margin:10px 0 0 0;
+		padding:10px 0 4px;
+	}
+
+.title_input label {
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	margin:0;
+	padding:10px 0 4px;
+}
+
+.title_input input {
+	font-size:12px;
+	font-weight: normal;
+	width:90%;
+}
+
+
+.submit{
+	margin-top:10px;
+}
+
+a.buttonew, button.buttonew, input[type="submit"] {
+	-moz-border-radius:11px 11px 11px 11px;
+	-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.15);
+	background:url("img/white-grad.png") repeat-x scroll left top #EAEAEA;
+	border-color:#DEDEDE #BBBBBB #BFBFBF #DEDEDE;
+	border-style:solid;
+	border-width:1px;
+	color:#464646;
+	cursor:pointer;
+	display:inline-block;
+	line-height:100%;
+	padding:5px 10px 6px;
+	text-decoration:none;
+}
+
+.form-button  {
+	float:left;
+	margin-right:6px;
+}
+
+
+table.emailnotification td {
+	padding:0 10px 0 0;
+	vertical-align:top;
+}
+
+
+#wrap a.add-col {
+	background:url("img/sidebar-col-button.png") no-repeat scroll 0 0 transparent;
+	color:#000000;
+	display:inline-block;
+	font-size:13px;
+	font-weight:bold;
+	height:33px;
+	padding:0 0 0 14px;
+	text-decoration:none;
+}
+
+	#wrap a.add-col span {
+		background:url("img/sidebar-col-button.png") no-repeat scroll right top transparent;
+		display:block;
+		margin:0 0 0 20px;
+		padding:8px 20px 12px 0;
+	}
+
+
+div.meeting_index th{
+	text-align:center;
+	border-bottom:solid 1px #2A3F55;
+	border-top:solid 1px #2A3F55;
+	padding:6px 7px;
+}
+
+div.meeting_index td{
+	text-align:center;
+	border-bottom:solid 1px #ccc;
+	padding:3px 4px;
+}
+
+body.meetings div.delete{
+	float: right;
+	padding-right:10px
+}
+
+body.meetings div.edit{
+	float:right;
+	padding-right:10px
+}
+
+body.meetings div.delete .busy span.spinner {
+	background-image:url("img/indicator.gif");
+	background-repeat:no-repeat;
+	display:block;
+	height:5px;
+	width:21px;
+}
+
+body.meetings div.delete .busy a {
+	visibility:hidden;
+}
+

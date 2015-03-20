@@ -1,0 +1,1 @@
+2010-06-02 09:45:30 Warning: Warning (2): array_combine() [<a href='http://php.net/function.array-combine'>function.array-combine</a>]: Both parameters should have at least 1 element in [APP\models\topic.php, line 15]
